@@ -376,6 +376,8 @@ int main(int argc, char** argv)
             std::cout << "--SNRmax DOUBLE\n";
             std::cout << "\tSet maximum signal to noise ratio.\n";
             std::cout << "\tBy default, 100.\n\n";
+            std::cout << "-h/--help\n";
+            std::cout << "\tPrint this help.\n\n";
 
             // exit
             std::exit(0);
